@@ -1,0 +1,6 @@
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\bin\Debug\LegacyInventory.Core.dll
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\bin\Debug\LegacyInventory.Core.pdb
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\obj\Debug\LegacyInventory.Core.csproj.AssemblyReference.cache
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\obj\Debug\LegacyInventory.Core.csproj.CoreCompileInputs.cache
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\obj\Debug\LegacyInventory.Core.dll
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\obj\Debug\LegacyInventory.Core.pdb

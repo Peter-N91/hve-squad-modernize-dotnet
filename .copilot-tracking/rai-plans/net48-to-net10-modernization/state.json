@@ -1,0 +1,190 @@
+{
+  "projectSlug": "net48-to-net10-modernization",
+  "raiPlanFile": "",
+  "currentPhase": 1,
+  "entryMode": "capture",
+  "disclaimerShownAt": "2026-07-02T12:02:11.8460353+02:00",
+  "noticeLog": [
+    {
+      "noticeType": "startup-disclaimer",
+      "source": ".github/instructions/disclaimer-language.instructions.md",
+      "shownAt": "2026-07-02T12:02:11.8460353+02:00",
+      "phase": 1
+    },
+    {
+      "noticeType": "framework-attribution",
+      "source": ".github/instructions/rai-identity.instructions.md",
+      "shownAt": "2026-07-02T12:02:11.8460353+02:00",
+      "framework": "NIST AI Risk Management Framework 1.0"
+    }
+  ],
+  "securityPlanRef": null,
+  "assessmentDepth": "basic",
+  "standardsMapped": false,
+  "securityModelAnalysisStarted": false,
+  "raiThreatCount": 0,
+  "impactAssessmentGenerated": false,
+  "evidenceRegisterComplete": false,
+  "handoffGenerated": {
+    "ado": false,
+    "github": false
+  },
+  "phaseGates": {
+    "phase1": {
+      "gate": "summary-and-advance"
+    },
+    "phase2": {
+      "gate": "hard",
+      "confirmedAt": null
+    },
+    "phase3": {
+      "gate": "hard",
+      "confirmedAt": null
+    },
+    "phase4": {
+      "gate": "summary-and-advance"
+    },
+    "phase5": {
+      "gate": "summary-and-advance"
+    },
+    "phase6": {
+      "gate": "hard",
+      "confirmedAt": null
+    }
+  },
+  "gateResults": {
+    "prohibitedUsesGate": {
+      "status": "pending",
+      "sourceFrameworks": [],
+      "notes": null
+    }
+  },
+  "riskClassification": {
+    "framework": {
+      "id": "nist-ai-rmf",
+      "name": "NIST AI Risk Management Framework",
+      "version": "1.0",
+      "source": ".github/skills/rai/rai-standards/SKILL.md",
+      "replaceDefaultIndicators": false,
+      "replaceDefaultFramework": false
+    },
+    "indicators": {
+      "safety_reliability": {
+        "method": "binary",
+        "nistSource": [
+          "MS-2.5",
+          "MS-2.6"
+        ],
+        "activated": false,
+        "observation": null,
+        "result": null
+      },
+      "rights_fairness_privacy": {
+        "method": "categorical",
+        "nistSource": [
+          "MS-2.8",
+          "MS-2.10",
+          "MS-2.11"
+        ],
+        "activated": false,
+        "observation": null,
+        "result": null
+      },
+      "security_explainability": {
+        "method": "continuous",
+        "nistSource": [
+          "MS-2.7",
+          "MS-2.9"
+        ],
+        "activated": false,
+        "observation": null,
+        "result": null
+      }
+    },
+    "activatedCount": 0,
+    "riskScore": null,
+    "suggestedDepthTier": "basic"
+  },
+  "runningObservations": [
+    {
+      "phase": 1,
+      "observation": "Modernization scope is platform/framework migration with no explicit AI model, inferencing workflow, automated decision pipeline, or model-output safety surface in provided artifacts.",
+      "flagLevel": "noted"
+    }
+  ],
+  "principleTracker": {
+    "validReliable": {
+      "suggestedStatus": "not-yet-covered",
+      "mappedInPhase3": false,
+      "threatsIdentified": 0,
+      "controlsEvaluated": 0,
+      "nistSubcat": "MS-2.5",
+      "openObservations": []
+    },
+    "safe": {
+      "suggestedStatus": "not-yet-covered",
+      "mappedInPhase3": false,
+      "threatsIdentified": 0,
+      "controlsEvaluated": 0,
+      "nistSubcat": "MS-2.6",
+      "openObservations": []
+    },
+    "secureResilient": {
+      "suggestedStatus": "not-yet-covered",
+      "mappedInPhase3": false,
+      "threatsIdentified": 0,
+      "controlsEvaluated": 0,
+      "nistSubcat": "MS-2.7",
+      "openObservations": []
+    },
+    "accountableTransparent": {
+      "suggestedStatus": "not-yet-covered",
+      "mappedInPhase3": false,
+      "threatsIdentified": 0,
+      "controlsEvaluated": 0,
+      "nistSubcat": "MS-2.8",
+      "openObservations": []
+    },
+    "explainableInterpretable": {
+      "suggestedStatus": "not-yet-covered",
+      "mappedInPhase3": false,
+      "threatsIdentified": 0,
+      "controlsEvaluated": 0,
+      "nistSubcat": "MS-2.9",
+      "openObservations": []
+    },
+    "privacyEnhanced": {
+      "suggestedStatus": "not-yet-covered",
+      "mappedInPhase3": false,
+      "threatsIdentified": 0,
+      "controlsEvaluated": 0,
+      "nistSubcat": "MS-2.10",
+      "openObservations": []
+    },
+    "fairBiasManaged": {
+      "suggestedStatus": "not-yet-covered",
+      "mappedInPhase3": false,
+      "threatsIdentified": 0,
+      "controlsEvaluated": 0,
+      "nistSubcat": "MS-2.11",
+      "openObservations": []
+    }
+  },
+  "referencesProcessed": [],
+  "nextActions": [
+    "Confirm whether modernization introduces any new AI components, model endpoints, or automated decision features."
+  ],
+  "signingRequested": false,
+  "signingManifestPath": null,
+  "userPreferences": {
+    "autonomyTier": "partial",
+    "outputDetailLevel": "standard",
+    "targetSystem": "both",
+    "audienceProfile": "mixed",
+    "includeOptionalArtifacts": {
+      "transparencyNote": false,
+      "monitoringSummary": false,
+      "artifactSigning": false
+    }
+  }
+}

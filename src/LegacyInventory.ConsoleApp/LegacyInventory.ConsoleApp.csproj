@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>LegacyInventory.ConsoleApp</RootNamespace>
+    <AssemblyName>LegacyInventory.ConsoleApp</AssemblyName>
+    <Deterministic>true</Deterministic>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LegacyInventory.Core\LegacyInventory.Core.csproj" />
+  </ItemGroup>
+</Project>

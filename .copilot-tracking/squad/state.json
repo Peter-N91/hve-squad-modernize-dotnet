@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.1",
+  "updated": "2026-07-02T21:00:00Z",
+  "turn": 9,
+  "mode": "autopilot",
+  "activeRoles": ["researcher", "lead", "developer", "tester", "modernizer", "architect", "security", "rai", "scribe"],
+  "openEscalations": [],
+  "currentRun": {
+    "estCostUsd": 0.7342,
+    "estCreditsTotal": 73.42
+  },
+  "notify": {
+    "approvalChannel": "in-chat",
+    "enabled": false,
+    "email": "",
+    "github": {
+      "handle": "",
+      "repo": ""
+    }
+  }
+}

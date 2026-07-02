@@ -1,0 +1,17 @@
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\bin\Debug\net10.0\LegacyInventory.ConsoleApp.exe
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\bin\Debug\net10.0\LegacyInventory.ConsoleApp.dll.config
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\bin\Debug\net10.0\LegacyInventory.ConsoleApp.deps.json
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\bin\Debug\net10.0\LegacyInventory.ConsoleApp.runtimeconfig.json
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\bin\Debug\net10.0\LegacyInventory.ConsoleApp.dll
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\bin\Debug\net10.0\LegacyInventory.ConsoleApp.pdb
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\bin\Debug\net10.0\LegacyInventory.Core.dll
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\bin\Debug\net10.0\LegacyInventory.Core.pdb
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\obj\Debug\net10.0\LegacyInventory.ConsoleApp.csproj.AssemblyReference.cache
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\obj\Debug\net10.0\LegacyInventory.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\obj\Debug\net10.0\LegacyInventory.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\obj\Debug\net10.0\LegacyIn.FF121D3C.Up2Date
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\obj\Debug\net10.0\LegacyInventory.ConsoleApp.dll
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\obj\Debug\net10.0\refint\LegacyInventory.ConsoleApp.dll
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\obj\Debug\net10.0\LegacyInventory.ConsoleApp.pdb
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\obj\Debug\net10.0\LegacyInventory.ConsoleApp.genruntimeconfig.cache
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.ConsoleApp\obj\Debug\net10.0\ref\LegacyInventory.ConsoleApp.dll

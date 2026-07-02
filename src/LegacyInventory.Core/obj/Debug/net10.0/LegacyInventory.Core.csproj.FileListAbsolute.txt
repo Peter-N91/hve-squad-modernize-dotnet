@@ -1,0 +1,9 @@
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\bin\Debug\net10.0\LegacyInventory.Core.deps.json
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\bin\Debug\net10.0\LegacyInventory.Core.dll
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\bin\Debug\net10.0\LegacyInventory.Core.pdb
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\obj\Debug\net10.0\LegacyInventory.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\obj\Debug\net10.0\LegacyInventory.Core.csproj.CoreCompileInputs.cache
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\obj\Debug\net10.0\LegacyInventory.Core.dll
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\obj\Debug\net10.0\refint\LegacyInventory.Core.dll
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\obj\Debug\net10.0\LegacyInventory.Core.pdb
+C:\Solutions\Demo Preps\hve-squad-modernize-dotnet\src\LegacyInventory.Core\obj\Debug\net10.0\ref\LegacyInventory.Core.dll

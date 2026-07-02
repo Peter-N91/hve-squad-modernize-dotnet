@@ -1,0 +1,62 @@
+name: Security Scanning
+
+on:
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: '0 2 * * 1'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  codeql:
+    name: CodeQL Analysis
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@f6e983b9e319b36f62818f0ce8f29bb3059ca5a4 # v3.29.8
+        with:
+          languages: csharp
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@e9b3a0c67ca2b5d2d6312f98057d6f4bf41fef1e # v4.3.1
+        with:
+          global-json-file: global.json
+
+      - name: Build
+        run: dotnet build LegacyInventory.sln -c Release
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@f6e983b9e319b36f62818f0ce8f29bb3059ca5a4 # v3.29.8
+
+  dependency-review:
+    name: Dependency Review
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Dependency Review
+        uses: actions/dependency-review-action@00527bbaf7f39e6d996e8b500dff3cebe258e3f9 # v4.7.1

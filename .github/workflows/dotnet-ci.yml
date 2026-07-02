@@ -1,0 +1,43 @@
+name: Dotnet CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build-test:
+    name: Restore Build Test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@e9b3a0c67ca2b5d2d6312f98057d6f4bf41fef1e # v4.3.1
+        with:
+          global-json-file: global.json
+
+      - name: Restore
+        run: dotnet restore LegacyInventory.sln
+
+      - name: Build
+        run: dotnet build LegacyInventory.sln -c Release --no-restore
+
+      - name: Test
+        run: dotnet test LegacyInventory.sln -c Release --no-build
